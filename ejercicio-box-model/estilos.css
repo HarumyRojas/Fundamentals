@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: rgb(53, 53, 53);
+  font-family: monospace;
+}
+
+.card {
+  margin: 36px auto;
+  max-width: 360px;
+  padding: 24px;
+  border: 1px solid black;
+  border-radius: 16px;
+  border-bottom: 4px solid black;
+  border-left: 4px solid black;
+}
+
+.author__image {
+  vertical-align: middle;
+  border-radius: 16px;
+}
+
+.author__name {
+  vertical-align: middle;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.title {
+  color: black;
+  font-size: 36px;
+}
+
+.content {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.chip-container {
+  margin-top: 8px;
+}
+
+.chip {
+  display: inline-block;
+  border-radius: 999px;
+  color: white;
+  padding: 4px 10px;
+  font-weight: 50%;
+}
+.chip_blue {
+  background-color: rgb(40, 125, 228);
+}
+.chip_red {
+  background-color: rgb(224, 31, 71);
+}
+
+.name {
+  font-size: 14px;
+}
